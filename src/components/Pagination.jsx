@@ -10,15 +10,15 @@ const Pagination = () => {
     }
 
     return (
-        <div class='w-full px-14 pb-7'>
+        <div class='w-full px-4 sm:px-8 md:px-14 pb-7'>
             <h1 class='text-3xl font-semibold'>All restaurants</h1>
-            <div class='grid grid-cols-3 py-7 gap-6 relative z-0'>
+            <div class='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 py-7 gap-6 relative z-0'>
             {
                 restaurants.slice(0, visibleCount).map((item, index) => (
                     
                     <div key={index} class='border border-gray-300 rounded-2xl overflow-hidden cursor-pointer '>
                         <div class='overflow-hidden'>
-                            <img class='h-[230px] w-full object-cover transition duration-500 ease-in-out hover:scale-105' src={item.img} alt={item.dish} />
+                            <img class='h-40 sm:h-52 md:h-[230px] w-full object-cover transition duration-500 ease-in-out hover:scale-105' src={item.img} alt={item.dish} />
                         </div>
                         <div class='p-3'>
                             <div class='flex justify-between'>

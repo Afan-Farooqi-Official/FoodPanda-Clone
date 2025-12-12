@@ -2,7 +2,7 @@
 const Footer = () => {
     return (
         <div>
-            <div class='grid grid-cols-4 px-14 py-7 border-y border-gray-100'>
+            <div class='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 px-4 sm:px-8 md:px-14 py-7 border-y border-gray-100 gap-6'>
                 <div>© foodpanda</div>
                 <div class='flex flex-col gap-4'>
                     <a href="#">Press</a>
@@ -41,16 +41,16 @@ const Footer = () => {
                     <a href="#">Areas delivered in Peshawar</a>
                 </div>
             </div>
-            <div class='flex py-7 items-center justify-between'>
-                <div class='flex'>
-                    <nav class='flex items-center ml-18 gap-2 hover:cursor-pointer mr-5'>
+            <div class='flex flex-col md:flex-row py-7 items-center justify-between gap-6'>
+                <div class='flex items-center justify-center md:justify-start gap-4'>
+                    <nav class='flex items-center gap-2 hover:cursor-pointer'>
                         <img class='w-7 h-7' src="../public/download.svg" alt="logo-pic" />
                         <img class='h-6' src="../public/download (1).svg" alt="logo-txt" />
                     </nav>
-                    |
+                    <span>|</span>
                     <img class='ml-5' src="../public/delivery-hero.svg" alt="" />
                 </div>
-                <div class='flex gap-4 mr-14'>
+                <div class='flex gap-4 justify-center md:justify-end md:mr-14'>
                     <img class='border border-gray-200 p-2 rounded-full cursor-pointer transition-transform duration-300 ease-out hover:bg-gray-100 hover:scale-110' src="../public/fb.svg" alt="contact" />
                     <img class='border border-gray-200 p-2 rounded-full cursor-pointer transition-transform duration-300 ease-out hover:bg-gray-100 hover:scale-110' src="../public/insta.svg" alt="contact" />
                 </div>
