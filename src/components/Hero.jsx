@@ -6,7 +6,7 @@ const Hero = () => {
                 <p class='text-2xl sm:text-3xl md:text-4xl font-black leading-snug text-center md:text-left'>Food and groceries delivery from <br/> Karachi’s best restaurants and <br /> shops</p>
             </div>
             <div>
-                <img class='h-48 sm:h-64 md:h-96 mt-6 md:mt-0' src="../public/banner.png" alt="banner" />
+                <img class='h-48 sm:h-64 md:h-96 mt-6 md:mt-0' src="../banner.png" alt="banner" />
             </div>
         </div>
     )

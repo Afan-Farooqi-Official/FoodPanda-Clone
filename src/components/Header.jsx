@@ -8,8 +8,8 @@ const Header = () => {
     return (
         <header class='flex justify-between items-center h-16 shadow-md sticky top-0 bg-white z-10 px-4 md:px-14'>
             <nav class='flex items-center gap-2 cursor-pointer ml-4 md:ml-16'>
-                <img class='w-7 h-7' src="../public/download.svg" alt="logo-pic" />
-                <img class='h-6' src="../public/download (1).svg" alt="logo-txt" />
+                <img class='w-7 h-7' src="../download.svg" alt="logo-pic" />
+                <img class='h-6' src="../download (1).svg" alt="logo-txt" />
             </nav>
             <div class='hidden sm:flex gap-2 hover:bg-gray-100 p-2 rounded-md cursor-pointer'>
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-map-pin-icon lucide-map-pin"><path d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0"/><circle cx="12" cy="10" r="3"/></svg>

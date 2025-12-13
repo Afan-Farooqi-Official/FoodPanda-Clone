@@ -44,15 +44,15 @@ const Footer = () => {
             <div class='flex flex-col md:flex-row py-7 items-center justify-between gap-6'>
                 <div class='flex items-center justify-center md:justify-start gap-4'>
                     <nav class='flex items-center gap-2 hover:cursor-pointer'>
-                        <img class='w-7 h-7' src="../public/download.svg" alt="logo-pic" />
-                        <img class='h-6' src="../public/download (1).svg" alt="logo-txt" />
+                        <img class='w-7 h-7' src="../download.svg" alt="logo-pic" />
+                        <img class='h-6' src="../download (1).svg" alt="logo-txt" />
                     </nav>
                     <span>|</span>
-                    <img class='ml-5' src="../public/delivery-hero.svg" alt="" />
+                    <img class='ml-5' src="../delivery-hero.svg" alt="" />
                 </div>
                 <div class='flex gap-4 justify-center md:justify-end md:mr-14'>
-                    <img class='border border-gray-200 p-2 rounded-full cursor-pointer transition-transform duration-300 ease-out hover:bg-gray-100 hover:scale-110' src="../public/fb.svg" alt="contact" />
-                    <img class='border border-gray-200 p-2 rounded-full cursor-pointer transition-transform duration-300 ease-out hover:bg-gray-100 hover:scale-110' src="../public/insta.svg" alt="contact" />
+                    <img class='border border-gray-200 p-2 rounded-full cursor-pointer transition-transform duration-300 ease-out hover:bg-gray-100 hover:scale-110' src="../fb.svg" alt="contact" />
+                    <img class='border border-gray-200 p-2 rounded-full cursor-pointer transition-transform duration-300 ease-out hover:bg-gray-100 hover:scale-110' src="../insta.svg" alt="contact" />
                 </div>
             </div>
         </div>
